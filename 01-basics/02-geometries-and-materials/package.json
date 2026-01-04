@@ -1,0 +1,19 @@
+{
+  "name": "02-geometries-and-materials",
+  "version": "1.0.0",
+  "description": "Learn how Three.js provides multiple built-in geometries and materials to create different 3D shapes with various visual properties.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npx vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}
