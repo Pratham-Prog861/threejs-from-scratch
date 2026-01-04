@@ -1,0 +1,19 @@
+{
+  "name": "03-lights-and-shadows",
+  "version": "1.0.0",
+  "description": "Learn how to use different light types in Three.js and enable realistic shadow casting using shadow maps.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npx vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}
