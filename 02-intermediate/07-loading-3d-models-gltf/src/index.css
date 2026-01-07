@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  background: #0a0a0a;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-family: monospace;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 350px;
+  z-index: 10;
+  pointer-events: none;
+  line-height: 1.6;
+}
