@@ -35,13 +35,15 @@ Think of this as your **30-day Three.js challenge** (or go at your own pace!). E
 
 ### 📁 02-intermediate
 
-**Level up with advanced techniques** _(Coming Soon)_
+**Level up with advanced techniques**
 
-- Textures and UV Mapping
-- Custom Geometries
-- Raycasting and Interactions
-- Particle Systems
-- Post-Processing Effects
+| Project | Topic                                                                              | What You'll Learn                             |
+| ------- | ---------------------------------------------------------------------------------- | --------------------------------------------- |
+| 06      | [Textures & Environment Maps](./02-intermediate/06-textures-and-environment-maps/) | Loading textures, UV mapping, HDRIs           |
+| 07      | [Loading 3D Models](./02-intermediate/07-loading-3d-models-gltf/)                  | Importing GLTF/GLB models, animation mixing   |
+| 08      | [Particle Systems](./02-intermediate/08-particle-systems/)                         | Creating custom geometries, points material   |
+| 09      | [Scroll Based Animation](./02-intermediate/09-scroll-based-animation/)             | Syncing 3D scenes with HTML scroll            |
+| 10      | [Basic Physics](./02-intermediate/10-basic-physics-rapier-or-cannon/)              | Gravity, collisions, rigid bodies with Rapier |
 
 ### 📁 03-advanced
 
@@ -238,7 +240,3 @@ Ready to create amazing 3D experiences on the web? Let's dive in!
 Remember: Every expert was once a beginner. Take it one project at a time, have fun, and keep experimenting! 🚀
 
 **Happy Coding! 💻✨**
-
----
-
-_Last Updated: January 2026_
