@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  overflow: hidden;
+  background: #000;
+  color: white;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  color: white;
+  font-family: monospace;
+  font-size: 13px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 4px;
+  border-radius: 8px;
+  max-width: 340px;
+  z-index: 10;
+  pointer-events: none;
+  line-height: 1.6;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.tabs {
+  display: flex;
+  gap: 0;
+  background: #1a1a1a;
+  padding: 0;
+  border-bottom: 2px solid #333;
+  z-index: 5;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 14px 20px;
+  background: #1a1a1a;
+  color: #888;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+  border-right: 1px solid #333;
+  font-family: monospace;
+}
+
+.tabs button:last-child {
+  border-right: none;
+}
+
+.tabs button:hover {
+  background: #252525;
+  color: #fff;
+}
+
+.tabs button.active {
+  background: #333;
+  color: #4fc3f7;
+  border-bottom: 2px solid #4fc3f7;
+}
+
+.canvas-container {
+  flex: 1;
+  position: relative;
+}
+
+.comparison-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  flex: 1;
+  background: #111;
+}
+
+.comparison-side {
+  position: relative;
+  background: #000;
+}
+
+.comparison-label {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 10;
+  font-family: monospace;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.comparison-side.vanilla .comparison-label {
+  color: #ff9800;
+}
+
+.comparison-side.r3f .comparison-label {
+  color: #4fc3f7;
+}
+
+.code-display {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 12px;
+  border-radius: 6px;
+  font-family: "Courier New", monospace;
+  font-size: 11px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #aaa;
+}
+
+.code-display pre {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.example-info {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.85);
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  max-width: 300px;
+  z-index: 10;
+  pointer-events: auto;
+  font-family: monospace;
+  line-height: 1.5;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.example-info strong {
+  color: #4fc3f7;
+}
+
+.example-info button {
+  pointer-events: auto;
+}
