@@ -47,13 +47,15 @@ Think of this as your **30-day Three.js challenge** (or go at your own pace!). E
 
 ### 📁 03-advanced
 
-**Build production-ready 3D experiences** _(Coming Soon)_
+**Build production-ready 3D experiences**
 
-- Performance Optimization
-- Complex Scenes and LOD
-- Physics Integration
-- Shaders and GLSL
-- Real-world Projects
+| Project | Topic                                                                     | What You'll Learn                             |
+| ------- | ------------------------------------------------------------------------- | --------------------------------------------- |
+| 11      | [Custom Shaders Basics](./03-advanced/11-custom-shaders-basics/)          | GLSL, Vertex/Fragment shaders, Uniforms       |
+| 12      | [Post-Processing & Effects](./03-advanced/12-postprocessing-and-effects/) | Bloom, Depth of Field, Glitch, EffectComposer |
+| 13      | [Performance Optimization](./03-advanced/13-performance-optimization/)    | _(Coming Soon)_                               |
+| 14      | [Complex Scenes & LOD](./03-advanced/14-complex-scenes-and-lod/)          | _(Coming Soon)_                               |
+| 15      | [Real-world Projects](./03-advanced/15-real-world-projects/)              | _(Coming Soon)_                               |
 
 ---
 
