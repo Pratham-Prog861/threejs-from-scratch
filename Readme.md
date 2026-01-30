@@ -49,13 +49,13 @@ Think of this as your **30-day Three.js challenge** (or go at your own pace!). E
 
 **Build production-ready 3D experiences**
 
-| Project | Topic                                                                     | What You'll Learn                             |
-| ------- | ------------------------------------------------------------------------- | --------------------------------------------- |
-| 11      | [Custom Shaders Basics](./03-advanced/11-custom-shaders-basics/)          | GLSL, Vertex/Fragment shaders, Uniforms       |
-| 12      | [Post-Processing & Effects](./03-advanced/12-postprocessing-and-effects/) | Bloom, Depth of Field, Glitch, EffectComposer |
-| 13      | [Performance Optimization](./03-advanced/13-performance-optimization/)    | _(Coming Soon)_                               |
-| 14      | [Complex Scenes & LOD](./03-advanced/14-complex-scenes-and-lod/)          | _(Coming Soon)_                               |
-| 15      | [Real-world Projects](./03-advanced/15-real-world-projects/)              | _(Coming Soon)_                               |
+| Project | Topic                                                                      | What You'll Learn                                  |
+| ------- | -------------------------------------------------------------------------- | -------------------------------------------------- |
+| 11      | [Custom Shaders Basics](./03-advanced/11-custom-shaders-basics/)           | GLSL, Vertex/Fragment shaders, Uniforms            |
+| 12      | [Post-Processing & Effects](./03-advanced/12-postprocessing-and-effects/)  | Bloom, Depth of Field, Glitch, EffectComposer      |
+| 13      | [Performance Optimization](./03-advanced/13-performance-and-optimization/) | Instancing, LOD, Performance Monitoring            |
+| 14      | [React Three Fiber Intro](./03-advanced/14-react-three-fiber-intro/)       | Declarative 3D, Hooks API, R3F Ecosystem           |
+| 15      | [WebXR: VR & AR Intro](./03-advanced/15-webxr-vr-or-ar-intro/)             | Immersive Scenes, Spatial Tracking, AR Hit-Testing |
 
 ---
 
